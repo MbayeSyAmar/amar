@@ -31,7 +31,7 @@ const greeting = {
 };
 
 // Social Media Links
-
+ 
 const socialMediaLinks = {
   github: "https://github.com/MbayeSyAmar",
   linkedin: "https://www.linkedin.com/in/serigne-mbaye-sy-amar-%E2%98%91%EF%B8%8F-0a128723a/",
