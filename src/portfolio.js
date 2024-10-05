@@ -31,10 +31,11 @@ const greeting = {
 };
 
 // Social Media Links
- 
+
 const socialMediaLinks = {
   github: "https://github.com/MbayeSyAmar",
-  linkedin: "https://www.linkedin.com/in/serigne-mbaye-sy-amar-%E2%98%91%EF%B8%8F-0a128723a/",
+  linkedin:
+    "https://www.linkedin.com/in/serigne-mbaye-sy-amar-%E2%98%91%EF%B8%8F-0a128723a/",
   gmail: "babacaramar02@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/anna.diop.50951/",
@@ -49,7 +50,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PROJECT MANAGER AND FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "PROJECT MANAGER AND FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -143,7 +145,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2022 - September 2024",
       desc: "Centrale supélec campus in africa, among the 5 best engineering schools in Morocco, i have worked on many projects including:",
-      descBullets: ["Project manager and bankend developer of a 1-year 'Learning by Doing' project focused on the 'Smart City'. Our objective was to predict and provide information on traffic jams to improve urban mobility."]
+      descBullets: [
+        "Project manager and bankend developer of a 1-year 'Learning by Doing' project focused on the 'Smart City'. Our objective was to predict and provide information on traffic jams to improve urban mobility."
+      ]
     },
     {
       schoolName: "Institut Polytechnique Saint-Louis",
@@ -151,11 +155,7 @@ const educationInfo = {
       subHeader: "Preparatory class",
       duration: "September 2020 - September 2022",
       desc: "Among the 3 best schools in Senegal, i'm working on many projects including:",
-      descBullets: [
-        "Mathematics",
-        "algorithm and coding",
-        "physics"
-      ]
+      descBullets: ["Mathematics", "algorithm and coding", "physics"]
     }
   ]
 };
@@ -187,40 +187,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-        role: "Software Engineer Intern",
-        company: "Skills & Smart",
-        companylogo: require("./assets/images/facebookLogo.png"),
-        date: "April 2024 – September 2024",
-        desc: "Improved the e-m3ellem platform and implemented a club management platform named Maroc Sport Management.",
-        descBullets: [
-            "Contributed to the enhancement of a digital platform to better serve users.",
-            "Developed a robust club management solution for sports organizations."
-        ]
+      role: "Software Engineer Intern",
+      company: "Skills & Smart",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "April 2024 – September 2024",
+      desc: "Improved the e-m3ellem platform and implemented a club management platform named Maroc Sport Management.",
+      descBullets: [
+        "Contributed to the enhancement of a digital platform to better serve users.",
+        "Developed a robust club management solution for sports organizations."
+      ]
     },
     {
-        role: "Web Development Intern",
-        company: "Simplon Senegal",
-        companylogo: require("./assets/images/quoraLogo.png"),
-        date: "August 2022 – October 2022",
-        desc: "Gained experience in programming and website creation using HTML, CSS, JavaScript, and Python Flask.",
-        descBullets: [
-            "Worked on creating websites and applications using modern web technologies.",
-            "Collaborated on various projects focused on delivering user-friendly digital solutions."
-        ]
+      role: "Web Development Intern",
+      company: "Simplon Senegal",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "August 2022 – October 2022",
+      desc: "Gained experience in programming and website creation using HTML, CSS, JavaScript, and Python Flask.",
+      descBullets: [
+        "Worked on creating websites and applications using modern web technologies.",
+        "Collaborated on various projects focused on delivering user-friendly digital solutions."
+      ]
     },
     {
-        role: "Intern",
-        company: "IDUS Capital",
-        companylogo: require("./assets/images/airbnbLogo.png"),
-        date: "July 2023 – August 2023",
-        desc: "Contributed to data analysis and enhanced research skills in a financial context.",
-        descBullets: [
-            "Performed extensive data analysis for improved financial decision-making.",
-            "Refined research techniques to better support the company's financial strategies."
-        ]
+      role: "Intern",
+      company: "IDUS Capital",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "July 2023 – August 2023",
+      desc: "Contributed to data analysis and enhanced research skills in a financial context.",
+      descBullets: [
+        "Performed extensive data analysis for improved financial decision-making.",
+        "Refined research techniques to better support the company's financial strategies."
+      ]
     }
-]
-
+  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -240,7 +239,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Google Project Management",
-      projectDesc: " Project Planning: Putting It All Together , Foundations of Project Management, Agile Project Management, Capstone: Applying Project Management in the Real World, Project Initiation: Starting a Successful Project, Project Execution: Running the Project",
+      projectDesc:
+        " Project Planning: Putting It All Together , Foundations of Project Management, Agile Project Management, Capstone: Applying Project Management in the Real World, Project Initiation: Starting a Successful Project, Project Execution: Running the Project",
       footerLink: [
         {
           name: "View certificate",
@@ -252,7 +252,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Scrum Master Certification",
-      projectDesc: "Scrum Master Certification: Scrum Methodologies, Scrum Master Certification: Scaling Agile and the Team-of-Teams, Combining Scrum with Other Agile Methodologies",
+      projectDesc:
+        "Scrum Master Certification: Scrum Methodologies, Scrum Master Certification: Scaling Agile and the Team-of-Teams, Combining Scrum with Other Agile Methodologies",
       footerLink: [
         {
           name: "View certificate",
@@ -269,14 +270,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements and Certifications that I have done !",
+  subtitle: "Achievements and Certifications that I have done !",
 
   achievementsCards: [
     {
       title: "Software Engineering: Modeling Software Systems using UML",
-      subtitle:
-        "The Hong Kong University of Science and Technology",
+      subtitle: "The Hong Kong University of Science and Technology",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -287,9 +286,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Apps Script: Access Google Sheets, Maps & Gmail in 4 Lines of Code",
-      subtitle:
-        "Google Cloud",
+      title:
+        "Google Apps Script: Access Google Sheets, Maps & Gmail in 4 Lines of Code",
+      subtitle: "Google Cloud",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -306,7 +305,6 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-    
         {
           name: "View certificate",
           url: "https://coursera.org/share/0206326f683d9d351f71700b6a24ff4a"
@@ -333,7 +331,8 @@ const blogSection = {
     },
     {
       url: "https://medium.com/@babacaramar02/pourquoi-combiner-flutter-et-laravel-lalliance-gagnante-pour-le-développement-b219e29a8173",
-      title: "Why Combine Flutter and Laravel: The Winning Alliance for Development",
+      title:
+        "Why Combine Flutter and Laravel: The Winning Alliance for Development",
       description:
         "This is why you should use Laravel as a backend when you develop a mobile application with flutter"
     }
@@ -353,7 +352,8 @@ const talkSection = {
     {
       title: "IT guide and orientation",
       subtitle: "help to be comfortable with computers",
-      slides_url: "https://centralecasablanca-my.sharepoint.com/:p:/g/personal/mbaye_amar_centrale-casablanca_ma/Ecv6ANehMCFDqUI9EYmOugkBWjw7z1ZJluvosYF-b5QkAw?e=w9wrg5",
+      slides_url:
+        "https://centralecasablanca-my.sharepoint.com/:p:/g/personal/mbaye_amar_centrale-casablanca_ma/Ecv6ANehMCFDqUI9EYmOugkBWjw7z1ZJluvosYF-b5QkAw?e=w9wrg5",
       event_url: "https://www.facebook.com/share/4Lsg54W4RSbTM34q/"
     }
   ],
@@ -384,8 +384,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss or just want to say hi? My Inbox is open for all.",
   number: "+33 77333 98 35",
   email_address: "babacaramar02@gmail.com"
 };
