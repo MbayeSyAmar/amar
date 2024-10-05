@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./Cv_SERIGNE MBAYE SY AMAR_fr.pdf")}
+                    download="Cv_SERIGNE MBAYE SY AMAR.pdf"
                     className="download-link-button"
                   >
                     <Button text="Mon CV" />
@@ -53,8 +53,8 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={require("./Cv_SERIGNE MBAYE SY AMAR_En.pdf")}
+                    download="Cv_SERIGNE MBAYE SY AMAR.pdf"
                     className="download-link-button"
                   >
                     <Button text="My resume" />
