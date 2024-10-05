@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amar/static/css/main.0c3b136d.css",
-    "main.js": "/amar/static/js/main.ef2b2f68.js",
+    "main.js": "/amar/static/js/main.1ee9447f.js",
     "static/css/64.bba8fa55.chunk.css": "/amar/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/amar/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/amar/static/css/769.b3cbb36b.chunk.css",
@@ -10,7 +10,9 @@
     "static/media/Montserrat-Regular.ttf": "/amar/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nextuLogo.webp": "/amar/static/media/nextuLogo.565494d05049556c69db.webp",
     "static/media/saayaHealthLogo.webp": "/amar/static/media/saayaHealthLogo.ea8cac5cb9d31c4eb298.webp",
+    "static/media/Cv_SERIGNE MBAYE SY AMAR_fr.pdf": "/amar/static/media/Cv_SERIGNE MBAYE SY AMAR_fr.d35ba3dad5886f50ee0e.pdf",
     "static/media/stanfordLogo.png": "/amar/static/media/stanfordLogo.d8b78ee1df6954cca620.png",
+    "static/media/Cv_SERIGNE MBAYE SY AMAR_En.pdf": "/amar/static/media/Cv_SERIGNE MBAYE SY AMAR_En.a5ea525dd7564a9dd3dd.pdf",
     "static/media/Agustina.woff": "/amar/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/amar/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/harvardLogo.png": "/amar/static/media/harvardLogo.51fc367c305032106fd3.png",
@@ -18,14 +20,13 @@
     "static/media/airbnbLogo.png": "/amar/static/media/airbnbLogo.b0fb2c60398a0dee1ad8.png",
     "static/media/developerActivity.svg": "/amar/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/skill.svg": "/amar/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/amar/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/amar/static/media/pwaLogo.5faf1e85070453ff1e04.webp",
     "index.html": "/amar/index.html",
     "static/media/googleAssistantLogo.webp": "/amar/static/media/googleAssistantLogo.91979033a5edbe05250f.webp",
     "static/media/codeInLogo.webp": "/amar/static/media/codeInLogo.e3aeaf651e400773069c.webp",
     "static/media/talksCardBack.svg": "/amar/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0c3b136d.css.map": "/amar/static/css/main.0c3b136d.css.map",
-    "main.ef2b2f68.js.map": "/amar/static/js/main.ef2b2f68.js.map",
+    "main.1ee9447f.js.map": "/amar/static/js/main.1ee9447f.js.map",
     "64.bba8fa55.chunk.css.map": "/amar/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/amar/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/amar/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.0c3b136d.css",
-    "static/js/main.ef2b2f68.js"
+    "static/js/main.1ee9447f.js"
   ]
 }
