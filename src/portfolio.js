@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin:
     "https://www.linkedin.com/in/serigne-mbaye-sy-amar-%E2%98%91%EF%B8%8F-0a128723a/",
   gmail: "babacaramar02@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  gitlab: "https://gitlab.com/babacaramar02",
   facebook: "https://www.facebook.com/anna.diop.50951/",
   medium: "https://medium.com/@babacaramar02",
   stackoverflow: "https://stackoverflow.com/users/27638395/babacar",
