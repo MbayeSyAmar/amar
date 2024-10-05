@@ -55,7 +55,7 @@ export default function Greeting() {
                   <a
                     href={require("./Cv_SERIGNE MBAYE SY AMAR_En.pdf")}
                     download="Cv_SERIGNE_MBAYE_SY_AMAR.pdf"
-                    className="download-link-button"
+                    className="download-link-button "
                   >
                     <Button text="My resume" />
                   </a>
