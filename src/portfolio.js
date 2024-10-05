@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Amar Mbaye sy",
+  title: "Hi all, I'm AMAR Serigne Mbaye sy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate about project management and full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Laravel / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/MbayeSyAmar",
+  linkedin: "https://www.linkedin.com/in/serigne-mbaye-sy-amar-%E2%98%91%EF%B8%8F-0a128723a/",
+  gmail: "babacaramar02@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  facebook: "https://www.facebook.com/anna.diop.50951/",
+  medium: "https://medium.com/@babacaramar02",
+  stackoverflow: "https://stackoverflow.com/users/27638395/babacar",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PROJECT MANAGER AND FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -89,8 +89,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "npm",
@@ -113,8 +113,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fab fa-flutter"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +126,36 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Centrale Marseille (Méditerranée)",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Engineering degree in IT development and organization",
+      duration: "September 2024 - September 2025",
+      desc: "One of the best engineering schools in France, i'm working on many projects including:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Project manager for a team to create an online certification platform.",
+        "Creation of an instant message mobile application",
+        "Mobile application for booking home services, with user management and automatic notifications"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Centrale Casablanca",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2022 - September 2024",
+      desc: "Centrale supélec campus in africa, among the 5 best engineering schools in Morocco, i have worked on many projects including:",
+      descBullets: ["Project manager and bankend developer of a 1-year 'Learning by Doing' project focused on the 'Smart City'. Our objective was to predict and provide information on traffic jams to improve urban mobility."]
+    },
+    {
+      schoolName: "Institut Polytechnique Saint-Louis",
+      logo: require("./assets/images/IPSLLogo.png"),
+      subHeader: "Preparatory class",
+      duration: "September 2020 - September 2022",
+      desc: "Among the 3 best schools in Senegal, i'm working on many projects including:",
+      descBullets: [
+        "Mathematics",
+        "algorithm and coding",
+        "physics"
+      ]
     }
   ]
 };
@@ -158,11 +171,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "99%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,31 +187,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        role: "Software Engineer Intern",
+        company: "Skills & Smart",
+        companylogo: require("./assets/images/facebookLogo.png"),
+        date: "April 2024 – September 2024",
+        desc: "Improved the e-m3ellem platform and implemented a club management platform named Maroc Sport Management.",
+        descBullets: [
+            "Contributed to the enhancement of a digital platform to better serve users.",
+            "Developed a robust club management solution for sports organizations."
+        ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        role: "Web Development Intern",
+        company: "Simplon Senegal",
+        companylogo: require("./assets/images/quoraLogo.png"),
+        date: "August 2022 – October 2022",
+        desc: "Gained experience in programming and website creation using HTML, CSS, JavaScript, and Python Flask.",
+        descBullets: [
+            "Worked on creating websites and applications using modern web technologies.",
+            "Collaborated on various projects focused on delivering user-friendly digital solutions."
+        ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        role: "Intern",
+        company: "IDUS Capital",
+        companylogo: require("./assets/images/airbnbLogo.png"),
+        date: "July 2023 – August 2023",
+        desc: "Contributed to data analysis and enhanced research skills in a financial context.",
+        descBullets: [
+            "Performed extensive data analysis for improved financial decision-making.",
+            "Refined research techniques to better support the company's financial strategies."
+        ]
     }
-  ]
+]
+
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -212,29 +234,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Best Certifications",
+  subtitle: "6 months, 10 hours per week",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Google Project Management",
+      projectDesc: " Project Planning: Putting It All Together , Foundations of Project Management, Agile Project Management, Capstone: Applying Project Management in the Real World, Project Initiation: Starting a Successful Project, Project Execution: Running the Project",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View certificate",
+          url: "https://coursera.org/share/d601834219d4d1c41e99a79e51b01211"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Scrum Master Certification",
+      projectDesc: "Scrum Master Certification: Scrum Methodologies, Scrum Master Certification: Scaling Agile and the Team-of-Teams, Combining Scrum with Other Agile Methodologies",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View certificate",
+          url: "https://coursera.org/share/f92d6b66d20b0e2ea82d2bdd00dbd874"
         }
       ]
     }
@@ -248,54 +270,46 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements and Certifications that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Software Engineering: Modeling Software Systems using UML",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "The Hong Kong University of Science and Technology",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://coursera.org/share/a2384beaaf66731ace8af264399b1672"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google Apps Script: Access Google Sheets, Maps & Gmail in 4 Lines of Code",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Google Cloud",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View certificate",
+          url: "https://coursera.org/share/bdcf64b2606981c0b5a91411597a0119"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Creative Design, Prototyping, and Testing",
+      subtitle: "University of Maryland, College Park",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+    
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View certificate",
+          url: "https://coursera.org/share/0206326f683d9d351f71700b6a24ff4a"
         }
       ]
     }
@@ -312,16 +326,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@babacaramar02/python-vs-java-une-comparaison-approfondie-bc2b6391f23e",
+      title: "Python vs Java: An In-Depth Comparison",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to know in detail the big differences between java and python?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@babacaramar02/pourquoi-combiner-flutter-et-laravel-lalliance-gagnante-pour-le-développement-b219e29a8173",
+      title: "Why Combine Flutter and Laravel: The Winning Alliance for Development",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "This is why you should use Laravel as a backend when you develop a mobile application with flutter"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -337,10 +351,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "IT guide and orientation",
+      subtitle: "help to be comfortable with computers",
+      slides_url: "https://centralecasablanca-my.sharepoint.com/:p:/g/personal/mbaye_amar_centrale-casablanca_ma/Ecv6ANehMCFDqUI9EYmOugkBWjw7z1ZJluvosYF-b5QkAw?e=w9wrg5",
+      event_url: "https://www.facebook.com/share/4Lsg54W4RSbTM34q/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -354,7 +368,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://podcasters.spotify.com/pod/show/babacar9/embed/episodes/Mon-parcours-My-journey-e2p8s90/a-abiibhc"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -371,15 +385,15 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss or just want to say hi? My Inbox is open for all.",
+  number: "+33 77333 98 35",
+  email_address: "babacaramar02@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "babacaramar02", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
