@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amar/static/css/main.0c3b136d.css",
-    "main.js": "/amar/static/js/main.5f913f04.js",
+    "main.js": "/amar/static/js/main.caea3c4c.js",
     "static/css/64.bba8fa55.chunk.css": "/amar/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/amar/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/amar/static/css/769.b3cbb36b.chunk.css",
@@ -10,7 +10,7 @@
     "static/media/Montserrat-Regular.ttf": "/amar/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nextuLogo.webp": "/amar/static/media/nextuLogo.565494d05049556c69db.webp",
     "static/media/saayaHealthLogo.webp": "/amar/static/media/saayaHealthLogo.ea8cac5cb9d31c4eb298.webp",
-    "static/media/Cv_SERIGNE MBAYE SY AMAR_fr.pdf": "/amar/static/media/Cv_SERIGNE MBAYE SY AMAR_fr.1fe53026e0562573e867.pdf",
+    "static/media/Cv_SERIGNE MBAYE SY AMAR_fr.pdf": "/amar/static/media/Cv_SERIGNE MBAYE SY AMAR_fr.c5822e4d86e7ecb64b62.pdf",
     "static/media/stanfordLogo.png": "/amar/static/media/stanfordLogo.d8b78ee1df6954cca620.png",
     "static/media/Cv_SERIGNE MBAYE SY AMAR_En.pdf": "/amar/static/media/Cv_SERIGNE MBAYE SY AMAR_En.12a35baf23010c316bab.pdf",
     "static/media/Agustina.woff": "/amar/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -26,7 +26,7 @@
     "static/media/codeInLogo.webp": "/amar/static/media/codeInLogo.e3aeaf651e400773069c.webp",
     "static/media/talksCardBack.svg": "/amar/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0c3b136d.css.map": "/amar/static/css/main.0c3b136d.css.map",
-    "main.5f913f04.js.map": "/amar/static/js/main.5f913f04.js.map",
+    "main.caea3c4c.js.map": "/amar/static/js/main.caea3c4c.js.map",
     "64.bba8fa55.chunk.css.map": "/amar/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/amar/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/amar/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.0c3b136d.css",
-    "static/js/main.5f913f04.js"
+    "static/js/main.caea3c4c.js"
   ]
 }
