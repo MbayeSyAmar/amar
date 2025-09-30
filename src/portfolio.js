@@ -187,6 +187,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+  role: "Automation & Optimization Engineer Intern",
+  company: "Axians - Vinci Energies",
+  companylogo: require("./assets/images/axiansLogo.png"), // ajoute le logo dans assets/images
+  date: "April 2025 – September 2025",
+  desc: "Automated and optimized telecom deliverables, directly contributing to project profitability.",
+  descBullets: [
+    "Automated fiber deliverables (DOE, EXE) with Python & Power Automate, reducing delivery time by 40%",
+    "Developed Python scripts to generate synoptic plans (time reduced from hours to seconds)",
+    "Integrated geospatial data into QGIS in Agile mode",
+    "Created PyQt tools to track field returns, improving quality and reliability"
+  ]
+},
+    {
       role: "Software Engineer Intern",
       company: "Skills & Smart",
       companylogo: require("./assets/images/facebookLogo.png"),
