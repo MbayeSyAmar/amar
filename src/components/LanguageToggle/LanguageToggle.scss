@@ -1,0 +1,31 @@
+@use "../../globalColor" as *;
+
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 10px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid $lightBorder1;
+  background: transparent;
+  color: $textColor;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.language-toggle:hover {
+  background-color: $headerHoverBG;
+}
+
+.dark-menu .language-toggle {
+  color: $textColorDark;
+  border-color: $textColorDark;
+}
+
+.dark-menu .language-toggle:hover {
+  background-color: $buttonColor;
+}

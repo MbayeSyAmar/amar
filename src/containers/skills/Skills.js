@@ -6,9 +6,12 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getLocalizedValue} from "../../i18n";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
+  const {language} = useContext(LanguageContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -32,7 +35,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {getLocalizedValue(skillsSection.title, language)}{" "}
             </h1>
             <p
               className={
@@ -41,7 +44,7 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {getLocalizedValue(skillsSection.subTitle, language)}
             </p>
             <SoftwareSkill />
             <div>

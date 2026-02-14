@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -21,10 +21,18 @@ const illustration = {
 
 const greeting = {
   username: "Amar Mbaye sy",
-  title: "Hi all, I'm AMAR Serigne Mbaye sy",
-  subTitle: emoji(
-    "A Passionate about consulting, project management, and full-stack software development."
-  ),
+  title: {
+    en: "Hi all, I'm AMAR Serigne Mbaye sy",
+    fr: "Bonjour Ã  tous, je suis AMAR Serigne Mbaye sy"
+  },
+  subTitle: {
+    en: emoji(
+      "A Passionate about consulting, project management, and full-stack software development."
+    ),
+    fr: emoji(
+      "PassionnÃ© par le conseil, la gestion de projet et le dÃ©veloppement logiciel full-stack."
+    )
+  },
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,16 +57,21 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle:
-    "PROJECT MANAGER AND FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: {
+    en: "What I do",
+    fr: "Ce que je fais"
+  },
+  subTitle: {
+    en: "PROJECT MANAGER AND FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    fr: "CHEF DE PROJET ET DÃ‰VELOPPEUR FULL STACK QUI VEUT EXPLORER CHAQUE TECHNOLOGIE"
+  },
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "âš¡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("âš¡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "âš¡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -128,7 +141,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Centrale Marseille (Méditerranée)",
+      schoolName: "Centrale Marseille (MÃ©diterranÃ©e)",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Engineering degree in IT development and organization",
       duration: "September 2024 - September 2025",
@@ -144,7 +157,7 @@ const educationInfo = {
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2022 - September 2024",
-      desc: "Centrale supélec campus in africa, among the 5 best engineering schools in Morocco, i have worked on many projects including:",
+      desc: "Centrale supÃ©lec campus in africa, among the 5 best engineering schools in Morocco, i have worked on many projects including:",
       descBullets: [
         "Project manager and bankend developer of a 1-year 'Learning by Doing' project focused on the 'Smart City'. Our objective was to predict and provide information on traffic jams to improve urban mobility."
       ]
@@ -187,23 +200,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-  role: "Automation & Optimization Engineer Intern",
-  company: "Axians - Vinci Energies",
-  companylogo: require("./assets/images/axiansLogo.png"), // ajoute le logo dans assets/images
-  date: "April 2025 – September 2025",
-  desc: "Automated and optimized telecom deliverables, directly contributing to project profitability.",
-  descBullets: [
-    "Automated fiber deliverables (DOE, EXE) with Python & Power Automate, reducing delivery time by 40%",
-    "Developed Python scripts to generate synoptic plans (time reduced from hours to seconds)",
-    "Integrated geospatial data into QGIS in Agile mode",
-    "Created PyQt tools to track field returns, improving quality and reliability"
-  ]
-},
+      role: {
+        en: "IT Engineer / Software Development Intern",
+        fr: "Ingénieur IT / Développement Logiciel (Stage)"
+      },
+      company: {
+        en: "Axians - Vinci Energies, Lyon",
+        fr: "Axians (Vinci Energies), Lyon"
+      },
+      companylogo: require("./assets/images/axiansLogo.png"),
+      date: {
+        en: "April 2025 – September 2025",
+        fr: "Avril 2025 – Septembre 2025"
+      },
+      desc: {
+        en: "Software development internship focused on internal tooling and technical improvements.",
+        fr: "Stage en développement logiciel axé sur les outils internes et l’amélioration de solutions techniques."
+      },
+      descBullets: {
+        en: [
+          "Object-oriented Python tool development.",
+          "Design and improvement of internal technical solutions.",
+          "Worked in Agile/Scrum environment with testing, validation, and documentation."
+        ],
+        fr: [
+          "Développement d’outils logiciels en Python orienté objet.",
+          "Conception et amélioration de solutions techniques internes.",
+          "Travail en environnement Agile / Scrum | Tests applicatifs, validation et documentation."
+        ]
+      }
+    },
     {
       role: "Software Engineer Intern",
       company: "Skills & Smart",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "April 2024 – September 2024",
+      date: "April 2024 â€“ September 2024",
       desc: "Improved the e-m3ellem platform and implemented a club management platform named Maroc Sport Management.",
       descBullets: [
         "Contributed to the enhancement of a digital platform to better serve users.",
@@ -214,7 +245,7 @@ const workExperiences = {
       role: "Web Development Intern",
       company: "Simplon Senegal",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "August 2022 – October 2022",
+      date: "August 2022 â€“ October 2022",
       desc: "Gained experience in programming and website creation using HTML, CSS, JavaScript, and Python Flask.",
       descBullets: [
         "Worked on creating websites and applications using modern web technologies.",
@@ -225,7 +256,7 @@ const workExperiences = {
       role: "Intern",
       company: "IDUS Capital",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "July 2023 – August 2023",
+      date: "July 2023 â€“ August 2023",
       desc: "Contributed to data analysis and enhanced research skills in a financial context.",
       descBullets: [
         "Performed extensive data analysis for improved financial decision-making.",
@@ -282,7 +313,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications ðŸ† "),
   subtitle: "Achievements and Certifications that I have done !",
 
   achievementsCards: [
@@ -343,7 +374,7 @@ const blogSection = {
         "Do you want to know in detail the big differences between java and python?"
     },
     {
-      url: "https://medium.com/@babacaramar02/pourquoi-combiner-flutter-et-laravel-lalliance-gagnante-pour-le-développement-b219e29a8173",
+      url: "https://medium.com/@babacaramar02/pourquoi-combiner-flutter-et-laravel-lalliance-gagnante-pour-le-dÃ©veloppement-b219e29a8173",
       title:
         "Why Combine Flutter and Laravel: The Winning Alliance for Development",
       description:
@@ -358,7 +389,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE ðŸ˜…"
   ),
 
   talks: [
@@ -376,7 +407,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Podcast ðŸŽ™ï¸"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -396,8 +427,14 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss or just want to say hi? My Inbox is open for all.",
+  title: {
+    en: emoji("Contact Me ☎️"),
+    fr: emoji("Me contacter ☎️")
+  },
+  subtitle: {
+    en: "Discuss or just want to say hi? My Inbox is open for all.",
+    fr: "Discuter ou simplement dire bonjour ? Ma boîte de réception est ouverte."
+  },
   number: "+33 77333 98 35",
   email_address: "babacaramar02@gmail.com"
 };

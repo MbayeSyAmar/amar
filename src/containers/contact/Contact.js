@@ -6,15 +6,20 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getLocalizedValue} from "../../i18n";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const {language} = useContext(LanguageContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">
+              {getLocalizedValue(contactInfo.title, language)}
+            </h1>
             <p
               className={
                 isDark
@@ -22,7 +27,7 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {getLocalizedValue(contactInfo.subtitle, language)}
             </p>
             <div
               className={

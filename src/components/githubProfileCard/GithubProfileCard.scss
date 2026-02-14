@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use "../../globalColor" as *;
 
 .profile-image {
   border-radius: 50%;

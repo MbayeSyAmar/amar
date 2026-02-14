@@ -1,11 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import LanguageContext from "../../contexts/LanguageContext";
+import {getLocalizedValue} from "../../i18n";
 
 export default function GithubProfileCard({prof}) {
+  const {language} = useContext(LanguageContext);
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
@@ -18,7 +21,9 @@ export default function GithubProfileCard({prof}) {
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
-              <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
+              <p className="subTitle blog-subtitle">
+                {getLocalizedValue(contactInfo.subtitle, language)}
+              </p>
             </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             {prof.location !== null && (

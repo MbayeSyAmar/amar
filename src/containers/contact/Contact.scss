@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use "../../globalColor" as *;
 
 .contact-div-main {
   display: flex;
