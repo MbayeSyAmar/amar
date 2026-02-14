@@ -31,7 +31,10 @@ export default function WorkExperience() {
                         date: getLocalizedValue(card.date, language),
                         companylogo: card.companylogo,
                         role: getLocalizedValue(card.role, language),
-                        descBullets: getLocalizedValue(card.descBullets, language)
+                        descBullets: getLocalizedValue(
+                          card.descBullets,
+                          language
+                        )
                       }}
                     />
                   );
